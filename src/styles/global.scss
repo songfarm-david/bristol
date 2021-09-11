@@ -63,12 +63,12 @@ body {
         }
     }
     a {
-        color: inherit;
+        color: $theme_color;
         text-decoration: none;
         &:hover,
         &:focus {
             cursor: pointer;
-            color: $text_color;
+            color: $footer_text;
         }
     }
 }
